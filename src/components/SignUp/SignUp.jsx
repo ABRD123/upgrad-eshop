@@ -51,7 +51,7 @@ function SignUp() {
                     </FormControl>
 
                     {/* Sign Up button */}
-                    <Button variant="contained" sx={{ margin: 1.5, width: 300, display: 'block', backgroundColor: "#3c32a8"}} type='submit' value='Registered'>SIGN UP</Button>
+                    <Button variant="contained" sx={{ margin: 1.5, width: 300, display: 'block', backgroundColor: "#3f51b5"}} type='submit' value='Registered'>SIGN UP</Button>
                 </form>
 
                 {/* Link below the button to SIGN IN */}

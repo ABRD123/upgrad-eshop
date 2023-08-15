@@ -25,7 +25,7 @@ function Login() {
                 </FormControl>
 
                 {/* Sign In button */}
-                <Button variant="contained" sx={{ width: 300, mt: 1, backgroundColor: "#3c32a8"}}>SIGN IN</Button>
+                <Button variant="contained" sx={{ width: 300, mt: 1, backgroundColor: "#3f51b5"}}>SIGN IN</Button>
 
                 {/* Link below the button to SIGN UP */}
                 <Box sx={{ display:'flex', width: 300}}>

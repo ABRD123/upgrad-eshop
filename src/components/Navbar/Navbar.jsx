@@ -49,7 +49,7 @@ const Navbar = () => {
 
     return (
         <Box sx={{ flexGrow: 1 }}>
-          <AppBar position="static" style={{ background: '#3c32a8' }}>
+          <AppBar position="static" style={{ background: '#3f51b5' }}>
             <Toolbar>
                 {/* APP's LOGO - Shopping cart icon with App's Name */}
                 <ShoppingCartIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -87,7 +87,6 @@ const Navbar = () => {
                 {/* Navigation Links */} 
                 <Link href="login" color="inherit" sx={{ mx: 2}}>Login</Link>
                 <Link href="signup" color="inherit" sx={{ mx: 2 }}>Sign Up</Link>
-                <Link href="" color="inherit" sx={{ mx: 2 }}>Home</Link>
                 <Link href="addproducts" color="inherit" sx={{ mx: 2 }}>Add Product</Link>
                 
                 {/* LOGOUT button */}
