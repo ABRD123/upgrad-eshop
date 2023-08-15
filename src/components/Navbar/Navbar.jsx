@@ -69,7 +69,7 @@ const Navbar = () => {
                     upGrad E-Shop
                 </Typography>
 
-                <Box sx={{ flexGrow: 1.5 }} />
+                <Box sx={{ flexGrow: 1.7 }} />
 
                 {/* Search Bar */}
                 <Search>

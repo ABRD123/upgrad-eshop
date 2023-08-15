@@ -3,6 +3,7 @@ import Products from "../Products/Products";
 import SignUp from "../SignUp/SignUp";
 import Navbar from "../Navbar/Navbar";
 import Login from "../Login/Login";
+import AddProducts from "../AddProducts/AddProducts";
 
 
 const AppRoutes = () => {
@@ -13,6 +14,7 @@ const AppRoutes = () => {
                 <Route path="/" element={<Products />}> </Route>
                 <Route path='/login' element={ <Login /> }></Route>
                 <Route path='/signup' element={ <SignUp /> }></Route>
+                <Route path="/addproducts" element= { <AddProducts /> }></Route>
             </Routes>
         </>
     );
